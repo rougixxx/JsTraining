@@ -5,8 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
 </head>
+
 <body>
-    <center><h1>JsFundamentsl-1</h1></center>
+    <div id="wrapper">
+        <h2 id="counter">0</h2>
+        <button id="incrementButton">Increment</button>
+        <button id="decrementbutton">Decrement</button>
+        <button>Reset</button>
+    </div>
+
+    <!-- <script>
+        // using querySelector gives us the possibility to use CSS selectors, like we did with the increment, and reset buttons.
+        const counterValue = document.getElementById("counter")        
+        const incButton = document.querySelector("#incrementButton")
+        const decButton = document.getElementById('decrementbutton')
+        const resetButton = document.querySelector('#wrapper :nth-child(4)')
+
+        
+        incButton.onclick = function () {
+            counterValue.innerHTML = parseInt(counterValue.innerHTML) + 1
+            // Why parseInt? because the value of the innerHTML is of type string, wanna demonstrate it? try: console.log(typeof(countervalue.innerHTML))
+        }
+
+        //How did we know onclick, innerHTML? try to console.log counterValue and incButton like we did on the classroom!
+
+        decButton.addEventListener('click', () => {
+            counterValue.innerHTML = parseInt(counterValue.innerHTML) - 1
+        })
+
+        resetButton.onclick = () => {
+            counterValue.innerHTML = 0
+        }
+        
+        
+    </script> -->
+
+    <script src="./script.js"></script>
+   
 </body>
+
+
 </html>
