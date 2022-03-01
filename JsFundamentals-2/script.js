@@ -3,7 +3,11 @@
 
 // Introduction to Objects
 
+const  age1 = 18
+const name1 = "ahmed"
 
+
+const student = 
 
 
 
