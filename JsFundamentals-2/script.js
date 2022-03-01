@@ -3,17 +3,17 @@
 
 // Introduction to Objects
 
-const  age1 = 18
-const name1 = "ahmed"
-
-
-// const student = git 
-
+const student = {
+  name: 'Abdessamed',
+  age: 19,
+  wilaya: 'Medea'
+}
 
 
 // Dot vs. Bracket Notation
 
-
+console.log(student.name)
+console.log(student['name'])
 
 // Challenge
 
@@ -65,7 +65,20 @@ const name1 = "ahmed"
 
 // Looping Arrays, Breaking and Continuing
 
+// => using map's method
+    const nums1 = [1, 3, 5, 9]
+    
+    const nums2 = nums1.map((num1) => num1 * 3)
+    console.log(nums2)
 
+    // Be aware that map returs a new array!
+
+// => using forEach's mehthod
+    const wilayas = ['Medea', 'Setif', 'Sidi bel abbess', 'Aid defla']
+    wilayas.forEach((wilaya) => {
+      console.log(wilaya)
+    })
+    // Be aware that forEach doesn't return a new array!
 
 // continue and break
 
