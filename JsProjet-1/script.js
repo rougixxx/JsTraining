@@ -70,6 +70,7 @@ btnHold.addEventListener('click', function() {
     currentScore = 0;
 })
 
+//qsdfqsfsdf
 
 
 
