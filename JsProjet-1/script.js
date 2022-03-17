@@ -100,16 +100,6 @@ btnHold.addEventListener('click', function () {
 btnNew.addEventListener('click', init);
 
 
-
-
-
-
-
-
-
-
-
-
 */
 const btnRoll = document.querySelector(".btn--roll");
 const btnHold = document.querySelector(".btn--hold");
